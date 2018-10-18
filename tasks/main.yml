@@ -1,0 +1,13 @@
+---
+
+- name: Install apt-transport-https
+  become: true
+  apt:
+    name: apt-transport-https
+    state: present
+
+- name: Install ca-certificates
+  become: true
+  apt:
+    name: ca-certificates
+    state: present

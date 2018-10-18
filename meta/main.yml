@@ -1,0 +1,10 @@
+---
+galaxy_info:
+  author: Dean McNiven
+  description: ansible-apt-https-support
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+dependencies: []
